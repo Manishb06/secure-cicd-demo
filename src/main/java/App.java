@@ -1,6 +1,6 @@
 public class App {
     public static void main(String[] args) {
-        String password = "AKIAIOSFODNN7EXAMPLE";  // Looks like an AWS key, Gitleaks pattern match
-        String secret = "ghp_1234567890ABCDEFGHijklmnopqrstuvwxyz"; // Looks like a GitHub token
+        // AWS keys must start with "AKIA" and be followed by 16 alphanumeric chars
+        String aws_key = "AKIA1234567890ABCD12";
     }
 }
