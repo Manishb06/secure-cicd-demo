@@ -1,5 +1,5 @@
 public class App {
 public static void main(String[] args) {
-System.out.println("Hello, Secure CI/CD Java World!") // Missing semicolon, no indentation
+System.out.println("Hello, Secure CI/CD Java World!"); // Missing semicolon, no indentation
 }
 }
